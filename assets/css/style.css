@@ -16,28 +16,25 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+h1 {
   display: inline-block;
   font-size: 48px;
 }
-
-.header h1 .seo {
+/* Class selector */
+.seo {
   color: #d9dcd6;
 }
-/* changed into  */
-.header nav {
+/* Element selector works to target the nav element*/
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
-.header div ul {
-  list-style-type: none;
-}
-
-.header div ul li {
+/* To target li elemets, li element selector has been used. */
+li {
+  list-style: none;
   display: inline-block;
   margin-left: 25px;
 }
@@ -56,7 +53,6 @@ p {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  /* background-image: url("../images/digital-marketing-meeting.jpg"); */
   background-size: cover;
   background-position: center;
 }
@@ -87,17 +83,9 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
+/* grouped the classes together as they share the same attributes */
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
@@ -198,6 +186,7 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+/* Id sepector specific to the first p element in the footer */
+#footer-note {
   font-size: 20px;
 }
