@@ -1,10 +1,15 @@
 # Accessibility-refactor
 
-# <Your-Project-Title>
-
 ## Description
 
 This webpage adheres to symantic HTML practices with a focus on accessibility.
+
+## Appearance
+
+The following image shows the web application's appearance:
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/Screenshot%202023-06-14%20at%209.27.28%20PM.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/Screenshot%202023-06-14%20at%209.27.42%20PM.png)
 
 ## Badges
 
