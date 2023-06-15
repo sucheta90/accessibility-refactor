@@ -2,7 +2,7 @@
 
 ## Description
 
-This webpage adheres to symantic HTML practices with a focus on accessibility.
+This webpage adheres to symantic HTML practices with a focus on accessibility. The `header` element holds the `nav` elements. The `main` holds `article`. As part of accessibility check, alt text have been added to all `img` tags.
 
 ## Appearance
 
@@ -13,8 +13,8 @@ The following image shows the web application's appearance:
 
 ## Badges
 
-![badmath](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![badmath](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CCS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Resources used
 
